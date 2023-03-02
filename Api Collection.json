@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "9e577056-0730-43c6-8b8e-b33e4fa39411",
+		"name": "Api Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26143297"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
