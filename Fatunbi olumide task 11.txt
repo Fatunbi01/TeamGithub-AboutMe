@@ -1,0 +1,1003 @@
+
+C:\Users\Olumide>npm install -g version
+npm WARN deprecated request@2.12.0: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 2 packages in 12s
+npm notice
+npm notice New minor version of npm available! 9.5.0 -> 9.6.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.1
+npm notice Run npm install -g npm@9.6.1 to update!
+npm notice
+
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>newman -v
+'newman' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Olumide>newman v
+'newman' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Olumide>npm install -g version
+npm WARN deprecated request@2.12.0: request has been deprecated, see https://github.com/request/request/issues/3142
+
+changed 2 packages in 701ms
+
+C:\Users\Olumide>
+C:\Users\Olumide>node --version
+v18.15.0
+
+C:\Users\Olumide>npm --version
+9.5.0
+
+C:\Users\Olumide>npm install -g newman
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+added 112 packages in 1m
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Olumide>npm fund
+Olumide
+
+
+C:\Users\Olumide>npm install -g newman
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 112 packages in 8s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Olumide>npm install -g npm@9.6.1 to update!
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/update! - Not found
+npm ERR! 404
+npm ERR! 404  'update!@*' is not in this registry.
+npm ERR! 404 This package name is not valid, because
+npm ERR! 404  1. name can no longer contain special characters ("~'!()*")
+npm ERR! 404
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Olumide\AppData\Local\npm-cache\_logs\2023-03-12T11_30_13_469Z-debug-0.log
+
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>
+C:\Users\Olumide>npm install -g npm@9.6.1
+
+added 1 package in 10s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\Olumide>npm --version
+9.6.1
+
+C:\Users\Olumide>cd C:\Users\Olumide\Downloads\API TEST new
+
+C:\Users\Olumide\Downloads\API TEST new>newman run postman_collection.json -e postman_environment.json
+newman
+
+Swagger Petstore
+
+□ pet / {petId}
+└ Find pet by ID
+  GET https://petstore.swagger.io/v2/pet/3628445 [404 Not Found, 384B, 4.2s]
+
+└ Updates a pet in the store with form data
+  POST https://petstore.swagger.io/v2/pet/-20233878 [404 Not Found, 384B, 288ms]
+
+└ Deletes a pet
+  DELETE https://petstore.swagger.io/v2/pet/-20233878 [404 Not Found, 292B, 344ms]
+
+└ uploads an image
+  ┌
+  │ 'Form param `file`, file load error: missing file source'
+  └
+  POST https://petstore.swagger.io/v2/pet/-20233878/uploadImage [500 Internal Server Error, 737B, 322ms]
+
+□ pet
+└ Add a new pet to the store
+  POST https://petstore.swagger.io/v2/pet [500 Server Error, 400B, 348ms]
+
+└ Update an existing pet
+  PUT https://petstore.swagger.io/v2/pet [200 OK, 598B, 341ms]
+
+└ Finds Pets by status
+  GET https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=available [200 OK, 34.55kB, 1082ms]
+  √  Status code is 200
+  √  Status code name has an OK string
+  √  Verify that entry with data 0 has status equals available
+  ┌
+  │ [
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'Mursik',
+  │     photoUrls: [ 'https://ru.pinterest.com/pin/376261743866615679/' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 12,
+  │     category: { id: 12, name: 'string' },
+  │     name: 'dog',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 12, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 11160318, name: 'laborisminim' },
+  │     name: 'Guru',
+  │     photoUrls: [ 'sdasd', 'nullafugiatdolorexercitationmagna' ],
+  │     tags: [ { id: 76998725, name: 'cillumsunt' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 11160318, name: 'laborisminim' },
+  │     name: 'Guru',
+  │     photoUrls: [ '', 'nullafugiatdolorexercitationmagna' ],
+  │     tags: [ { id: 76998725, name: 'cillumsunt' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 1, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: -48650301, name: 'human' },
+  │     name: 'Negr',
+  │     photoUrls: [ 'ut nostrud' ],
+  │     tags: [
+  │       { id: -80785277, name: 'reprehende' },
+  │       { id: 39923815, name: 'cupidatat minim dolor adipisicing' }
+  │     ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 1678619837,
+  │     category: { id: 872545821, name: 'domestic dog' },
+  │     name: 'Bim',
+  │     photoUrls: [ 'https://mobimg.b-cdn.net/v3/fetch/47/477a61586eda3cbc48901169b0fd6722.jpeg'
+  │ ],
+  │     tags: [ { id: 45482482422, name: 'little dog' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 1678619876,
+  │     category: { id: 872545821, name: 'domestic dog' },
+  │     name: 'Bim',
+  │     photoUrls: [ 'https://mobimg.b-cdn.net/v3/fetch/47/477a61586eda3cbc48901169b0fd6722.jpeg'
+  │ ],
+  │     tags: [ { id: 45482482422, name: 'little dog' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'negr' },
+  │     name: 'negr',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'negr' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 1245,
+  │     category: { id: 1245, name: 'xyz' },
+  │     name: 'xyz',
+  │     photoUrls: [ 'test' ],
+  │     tags: [],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'aashu4',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'negr' },
+  │     name: 'negr',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'negr' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'negr' },
+  │     name: 'negr',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 14553, name: 'negr' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'dog' },
+  │     name: 'Betty',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 14553,
+  │     category: { id: 0, name: 'negr' },
+  │     name: 'negr',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 14553, name: 'negr' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'negr' },
+  │     name: 'negr',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'negr' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 1923,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'lol',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'akuma' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 1, name: 'dog' },
+  │     name: 'Бубу',
+  │     photoUrls: [ 'https://petstore.swagger.io/v2/pet.png' ],
+  │     tags: [ { id: 1, name: 'tag1' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 750,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie-Catel',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 1, name: 'dog' },
+  │     name: 'Бебебоба',
+  │     photoUrls: [ 'https://petstore.swagger.io/v2/pet.png' ],
+  │     tags: [ { id: 1, name: 'tag1' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'Mursik',
+  │     photoUrls: [ 'https://ru.pinterest.com/pin/376261743866615679/' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 48843,
+  │     category: { id: 0, name: 'nhlisldzzv' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 666,
+  │     category: { id: 666, name: 'hell_animals' },
+  │     name: 'cerber',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'Berkeley',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 16736866,
+  │     category: { id: -79840793, name: 'minim' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'aute', 'nisi ma' ],
+  │     tags: [ { id: 51937418, name: 'consequat' }, { id:
+  │  -2693752, name: 'magna Ut mollit dolor' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'Berkeley',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'SHera' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'sdfgjhk' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 87443,
+  │     category: { id: 0, name: 'zeudebynhg' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 1, name: 'dog' },
+  │     name: 'Бебебоба',
+  │     photoUrls: [ 'https://petstore.swagger.io/v2/pet.png' ],
+  │     tags: [ { id: 1, name: 'tag1' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'barby' },
+  │     name: 'barbyy',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'Bobby',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 112233,
+  │     category: { id: 30, name: 'Eq-dog' },
+  │     name: 'Postman',
+  │     photoUrls: [ 'URLLink' ],
+  │     tags: [ { id: 10, name: 'Doberman' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'aashu4',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 65,
+  │     category: { id: 0, name: 'monkey' },
+  │     name: 'abu',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'monkey' },
+  │     name: 'abu',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   { id: 22408871, name: 'Tiger', photoUrls: [], tags:
+  │ [], status: 'available' },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'fish',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   {
+  │     id: 9223372036854248000,
+  │     category: { id: 0, name: 'string' },
+  │     name: 'doggie',
+  │     photoUrls: [ 'string' ],
+  │     tags: [ { id: 0, name: 'string' } ],
+  │     status: 'available'
+  │   },
+  │   ... 119 more items
+  │ ]
+  │ 'fish'
+  │ 9223372036854248000
+  │ [ 'string' ]
+  │ 'available'
+  │ [ { id: 0, name: 'string' } ]
+  └
+
+└ Finds Pets by tags
+  GET https://petstore.swagger.io/v2/pet/findByTags?tags=deserunt aliquip&tags=est reprehenderit [200 OK, 328B, 246ms]
+
+□ store / order / {orderId}
+└ Find purchase order by ID
+  GET https://petstore.swagger.io/v2/store/order/{{olumideid}} [404 Not Found, 443B, 285ms]
+  √  Status code is 404
+  √  Status code name has an Not Found string
+
+└ Delete purchase order by ID
+  DELETE https://petstore.swagger.io/v2/store/order/{{olumideid}} [404 Not Found, 443B, 1108ms]
+  √  Status code is 404
+  √  Status code name has an Not Found string
+
+□ store / order
+└ Place an order for a pet
+  POST https://petstore.swagger.io/v2/store/order [500 Server Error, 400B, 318ms]
+
+□ store
+└ Returns pet inventories by status
+  GET https://petstore.swagger.io/v2/store/inventory [200 OK, 555B, 296ms]
+
+□ user / {username}
+└ Get user by user name
+  GET https://petstore.swagger.io/v2/user/aliqua nost [404 Not Found, 385B, 298ms]
+
+└ Updated user
+  PUT https://petstore.swagger.io/v2/user/aliqua nost [200 OK, 387B, 821ms]
+
+└ Delete user
+  DELETE https://petstore.swagger.io/v2/user/aliqua nost [404 Not Found, 292B, 1943ms]
+
+□ user
+└ Create user
+  POST https://petstore.swagger.io/v2/user [200 OK, 387B, 260ms]
+
+└ Creates list of users with given input array
+  POST https://petstore.swagger.io/v2/user/createWithArray [200 OK, 370B, 320ms]
+
+└ Creates list of users with given input array
+  POST https://petstore.swagger.io/v2/user/createWithList [200 OK, 370B, 252ms]
+
+└ Logs user into the system
+  GET https://petstore.swagger.io/v2/user/login?username=aliqua nost&password=aliqua nost [200 OK, 471B, 251ms]
+
+└ Logs out current logged in user session
+  GET https://petstore.swagger.io/v2/user/logout [200 OK, 370B, 1063ms]
+
+┌─────────────────────────┬────────────────────┬────────────────────┐
+│                         │           executed │             failed │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│              iterations │                  1 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│                requests │                 20 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│            test-scripts │                  3 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│      prerequest-scripts │                  0 │                  0 │
+├─────────────────────────┼────────────────────┼────────────────────┤
+│              assertions │                  7 │                  0 │
+├─────────────────────────┴────────────────────┴────────────────────┤
+│ total run duration: 16.4s                                         │
+├───────────────────────────────────────────────────────────────────┤
+│ total data received: 35.9kB (approx)                              │
+├───────────────────────────────────────────────────────────────────┤
+│ average response time: 720ms [min: 246ms, max: 4.2s, s.d.: 912ms] │
+└───────────────────────────────────────────────────────────────────┘
+
+C:\Users\Olumide\Downloads\API TEST new>
